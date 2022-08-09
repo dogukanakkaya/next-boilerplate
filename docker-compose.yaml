@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: app_postgres
+    image: postgres:14.4-alpine
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_HOST_AUTH_METHOD: trust
+volumes:
+  db_data:
