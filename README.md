@@ -3,15 +3,15 @@
 ### Contents
 - Next Auth
 - Prisma
-- React Table
 - tRPC
+- Tailwind
+- React Table
 - React Select
 - Jest (with Factory and Faker)
-- Tailwind
+- Eslint custom config
 - GitHub CI
 - Git Hooks (Husky)
 - Docker Compose config for PostgreSQL
-- Eslint custom config
 
 ### Create Env Files
 
