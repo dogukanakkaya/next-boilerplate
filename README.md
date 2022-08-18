@@ -6,9 +6,10 @@
 - React Table
 - tRPC
 - React Select
-- Jest (also includes Factory and Faker)
+- Jest (with Factory and Faker)
 - Tailwind
 - GitHub CI
+- Git Hooks (Husky)
 - Docker Compose config for PostgreSQL
 - Eslint custom config
 
